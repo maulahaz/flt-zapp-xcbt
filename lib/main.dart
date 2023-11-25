@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter App!!',
       debugShowCheckedModeBanner: false,
-      theme: lightMode,
       home: Container(child: Center(child: Text('Welcome'),),)
     );
   }
