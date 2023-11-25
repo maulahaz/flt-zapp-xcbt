@@ -1,15 +1,23 @@
-# Project : Flutter Exercise by Zapp.run
-*********************************************
- Some Flutter exercise collection made by Zapp.run
-
 # Flutter app in Zapp!
+
+A new Flutter project built with Zapp!
+
 ----
 
 > To learn how to use Zapp! check out the [documentation](https://docs.zapp.run)
 
 ----
 
-# Modules : Glassmorphic UI (15-Nov-23)
----
-- Learn how to build Glassmorphic UI
-- Src: [Glassmorphic design using flutter package Glassmorphic -- by NOBOMAN](https://www.youtube.com/watch?v=i7pu1NZMJoA)
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
