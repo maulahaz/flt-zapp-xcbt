@@ -1,6 +1,6 @@
 //--Padding:
 // --------------------------------------------------
-const double kDefaultPadding = 12;
+const double kDefaultPadding = 16;
 
 //--Responsive:
 // --------------------------------------------------

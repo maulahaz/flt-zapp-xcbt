@@ -1,15 +1,21 @@
-# Project : Flutter Exercise by Zapp.run
-*********************************************
- Some Flutter exercise collection made by Zapp.run
+# Project : flt-zapp-fic10-cbt
+***************************************************************
+Flutter App by Zapp.run: Flutter Computer Based Training, in FIC-10 event by Code With Bahri
 
-# Flutter app in Zapp!
-----
+# Notes:
+- Started at: Week-2 of Nov-23
+- Flutter using version 3.7.3 (Zapp.run)
+- State Mgt: BLoC
+- Backend: Laravel v.10
+- DB: MySQL
+- Packages: bloc, flutter_bloc, http, intl, dartz, equatable, shared_preferences, ...
 
-> To learn how to use Zapp! check out the [documentation](https://docs.zapp.run)
+# References:
+- [Github: bahrie127/flutter_cbt_app](https://github.com/bahrie127/flutter_cbt_app)
 
-----
-
-# Modules : Glassmorphic UI (15-Nov-23)
----
-- Learn how to build Glassmorphic UI
-- Src: [Glassmorphic design using flutter package Glassmorphic -- by NOBOMAN](https://www.youtube.com/watch?v=i7pu1NZMJoA)
+# Resource References:
+- Random Images: [https://i.pravatar.cc/200](https://i.pravatar.cc/200)
+- Random Images: [https://picsum.photos/200](https://picsum.photos/200)
+- Unsplash Images: https://source.unsplash.com/[IMAGE ID]
+- [Colors](https://coolors.co/palettes/trending)
+- [SVG Icons](http://svgrepo.com)

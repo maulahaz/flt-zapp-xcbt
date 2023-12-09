@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'all_configs.dart';
+import 'x_configs.dart';
 
-class Themes {
+class MyThemes {
   static final lightMode = ThemeData(
-      primaryColor: kAppPrimary,
+      primarySwatch: kBlue,
+      primaryColor: kBlue,
       brightness: Brightness.light,
       fontFamily: 'Poppins',
       inputDecorationTheme: InputDecorationTheme(
@@ -15,10 +16,11 @@ class Themes {
           fillColor: Colors.grey.withOpacity(0.1)));
 
   static final darkMode = ThemeData(
-    primaryColor: Colors.blue,
-    brightness: Brightness.dark,
-    fontFamily: 'Poppins',
-    inputDecorationTheme: InputDecorationTheme(
+      primarySwatch: Colors.red,
+      primaryColor: Color(0xFFf07167),
+      brightness: Brightness.dark,
+      fontFamily: 'Poppins',
+      inputDecorationTheme: InputDecorationTheme(
           border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(20.0),
               borderSide: BorderSide.none),

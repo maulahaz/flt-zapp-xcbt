@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-// Main Colors:
+// Main Colors (MaterialColor):
 // --------------------------------------------------
-const kRed = Color(0xFFE92E30);
-const kGreen = Color(0xFF6AC259);
+const kWhite = Colors.white;
+const kBlack = Colors.black;
+const kTransparent = Colors.transparent;
+const kRed = Colors.red;
+const kGreen = Colors.green;
 const kBlue = Colors.blue;
 const kYellow = Colors.yellow;
-const kGrey = Color(0xFFC1C1C1);
-const kWhite = Color(0xFFFFFFFF);
-const kBlack = Color(0xFF101010);
-const kTransparent = Colors.transparent;
+const kGrey = Colors.grey;
 
 //--App Colors Pallets:
 const kAppPrimary = Color.fromRGBO(157,195,230,1);
@@ -19,7 +19,7 @@ const kAppPrimaryLight = Color(0xffbde0fe);
 const kAppSecondary = Color(0xffafcc);
 const kAppSecondaryLight = Color(0xffc8dd);
 
-//
+//--App Colors Additional:
 const kAppBiruDark = Color(0xFF0081a7);
 final kAppBiruLight = Color(0xFF00afb9);
 const kAppKuning = Color(0xFFfdfcdc);
@@ -37,8 +37,6 @@ const kBgWarning = Color(0xFFFFC107);
 const kBgInfo = Color(0xFF17A2B8);
 const kBgLight = Color(0xFFF8F9FA);
 const kBgDark = Color(0xFF343A40);
-const bgDefault = Color(0xffe0e0e0);
-
 
 //--Gradient:
 const kAppGradientPrim = LinearGradient(
