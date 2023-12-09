@@ -1,4 +1,4 @@
-// import 'package:cached_network_image/cached_network_image.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/extensions/x_extensions.dart';
 
@@ -26,20 +26,20 @@ class HeaderHome extends StatelessWidget {
             children: [
               ClipRRect(
                 borderRadius: const BorderRadius.all(Radius.circular(50.0)),
-                child: Image.network(
-                  'https://i.pravatar.cc/200',
-                  width: 64.0,
-                  height: 64.0,
-                  fit: BoxFit.cover,
-                ),
-                // child: CachedNetworkImage(
+                // child: Image.network(
+                //   'https://i.pravatar.cc/200',
                 //   width: 64.0,
                 //   height: 64.0,
                 //   fit: BoxFit.cover,
-                //   imageUrl: "http://i.pravatar.cc/200",
-                //   placeholder: (context, url) => CircularProgressIndicator(),
-                //   errorWidget: (context, url, error) => Icon(Icons.error),
                 // ),
+                child: CachedNetworkImage(
+                  width: 64.0,
+                  height: 64.0,
+                  fit: BoxFit.cover,
+                  imageUrl: "http://i.pravatar.cc/200",
+                  placeholder: (context, url) => CircularProgressIndicator(),
+                  errorWidget: (context, url, error) => Icon(Icons.error),
+                ),
               ),
               const SizedBox(width: 16.0),
               SizedBox(

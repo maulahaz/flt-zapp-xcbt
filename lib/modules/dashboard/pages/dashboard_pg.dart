@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../../configs/x_configs.dart';
-import '../../home/x_homes.dart';
 import '../../logout/x_logouts.dart';
 import '../x_dashboards.dart';
 
@@ -16,7 +15,7 @@ class _DashboardPageState extends State<DashboardPage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    HomePage(),
+    DashboardBody(),
     Center(child: Text('Materi')),
     Center(
       child: Text('Notif'),

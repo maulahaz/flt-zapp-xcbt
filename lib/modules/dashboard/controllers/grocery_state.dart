@@ -1,24 +1,24 @@
-part of 'grocery_bloc.dart';
+// part of 'grocery_bloc.dart';
 
-// @immutable
-abstract class GroceryState {}
+// // @immutable
+// abstract class GroceryState {}
 
-abstract class GroceryActionState extends GroceryState {}
+// abstract class GroceryActionState extends GroceryState {}
 
-//---------------------------------------------------------------
-class GroceryInitialState extends GroceryState {}
+// //---------------------------------------------------------------
+// class GroceryInitialState extends GroceryState {}
 
-class GroceryFetchLoadingState extends GroceryState {}
+// class GroceryFetchLoadingState extends GroceryState {}
 
-class GroceryFetchSuccessState extends GroceryState {
-  final List<GroceryModel> data;
+// class GroceryFetchSuccessState extends GroceryState {
+//   final List<GroceryModel> data;
 
-  GroceryFetchSuccessState({required this.data});
-}
+//   GroceryFetchSuccessState({required this.data});
+// }
 
-class GroceryFetchErrorState extends GroceryState {}
+// class GroceryFetchErrorState extends GroceryState {}
 
-//---------------------------------------------------------------
-class GroceryAdditionSuccessState extends GroceryActionState {}
+// //---------------------------------------------------------------
+// class GroceryAdditionSuccessState extends GroceryActionState {}
 
-class GroceryAdditionErrorState extends GroceryActionState {}
+// class GroceryAdditionErrorState extends GroceryActionState {}
