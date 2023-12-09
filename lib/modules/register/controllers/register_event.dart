@@ -1,5 +1,3 @@
-part of 'register_bloc.dart';
-
 abstract class SignupEvent {}
 
 //GetSignup Event for Creating New User

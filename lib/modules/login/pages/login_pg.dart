@@ -7,7 +7,7 @@ import '../../dashboard/x_dashboards.dart';
 import '../../register/x_registers.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+  LoginPage({super.key});
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -24,25 +24,25 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         backgroundColor: kAppPrimary,
         centerTitle: true,
-        title: const Text('Log in'),
+        title: Text('Log in'),
       ),
       body: ListView(
-        padding: const EdgeInsets.all(24.0),
+        padding: EdgeInsets.all(24.0),
         children: [
           MyTextField(
             controller: emailController,
             label: 'Email Address',
           ),
-          const SizedBox(height: 16.0),
+          SizedBox(height: 16.0),
           MyTextField(
             controller: passwordController,
             label: 'Password',
             obscureText: true,
           ),
-          const SizedBox(height: 16.0),
+          SizedBox(height: 16.0),
           GestureDetector(
             onTap: () {},
-            child: const Text(
+            child: Text(
               'Forgot Password?',
               style: TextStyle(
                 fontWeight: FontWeight.w500,
@@ -50,16 +50,16 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
           ),
-          const SizedBox(height: 42.0),
+          SizedBox(height: 42.0),
           MyButtons.primary(context, 'Log In', () {
-            context.pushReplacement(const DashboardPage());
+            context.pushReplacement(DashboardPage());
           }),
-          const SizedBox(height: 24.0),
+          SizedBox(height: 24.0),
           GestureDetector(
             onTap: () {
-              context.pushReplacement(const RegisterPage());
+              context.pushReplacement(RegisterPage());
             },
-            child: const Text.rich(
+            child: Text.rich(
               TextSpan(
                 text: 'Don\'t have an account? ',
                 children: [

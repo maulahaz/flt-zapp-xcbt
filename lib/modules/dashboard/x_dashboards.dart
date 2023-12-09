@@ -11,4 +11,6 @@ export 'services/grocery_srv.dart';
 
 //--PAGES AND PARTS
 export 'pages/dashboard_pg.dart';
-// export 'pages/parts/modules_part.dart';
+export 'pages/parts/header.dart';
+export 'pages/parts/nav_menu.dart';
+export 'pages/parts/search_input.dart';

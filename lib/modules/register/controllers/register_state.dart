@@ -1,4 +1,4 @@
-part of 'register_bloc.dart';
+import '../x_registers.dart';
 
 abstract class SignupState {}
 

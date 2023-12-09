@@ -1,5 +1,7 @@
 //--CONTROLLERS
 export 'controllers/register_bloc.dart';
+export 'controllers/register_event.dart';
+export 'controllers/register_state.dart';
 
 //--MODELS
 export 'models/authorization_mdl.dart';

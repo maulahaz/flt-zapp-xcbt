@@ -18,6 +18,7 @@ const kAppPrimaryDark2 = Color(0xffcdb4db);
 const kAppPrimaryLight = Color(0xffbde0fe);
 const kAppSecondary = Color(0xffafcc);
 const kAppSecondaryLight = Color(0xffc8dd);
+const kAppLight = Color(0xFFF8F5FF);
 
 //--App Colors Additional:
 const kAppBiruDark = Color(0xFF0081a7);

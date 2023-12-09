@@ -15,6 +15,7 @@ dependencies:
   http:
   equatable:
   shared_preferences:
+  cached_network_image:
 
   # intl: ^0.18.1
   # bloc: ^8.1.2
@@ -44,6 +45,7 @@ flutter:
   fonts:
     - family: Poppins
       fonts:
+        - asset: lib/assets/fonts/Poppins-Regular.ttf
 
         #   - family: Trajan Pro
         #     fonts:

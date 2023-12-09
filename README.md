@@ -8,7 +8,7 @@ Flutter App by Zapp.run: Flutter Computer Based Training, in FIC-10 event by Cod
 - State Mgt: BLoC
 - Backend: Laravel v.10
 - DB: MySQL
-- Packages: bloc, flutter_bloc, http, intl, dartz, equatable, shared_preferences, ...
+- Packages: bloc, flutter_bloc, http, intl, dartz, equatable, shared_preferences, cached_network_image, ...
 
 # References:
 - [Github: bahrie127/flutter_cbt_app](https://github.com/bahrie127/flutter_cbt_app)

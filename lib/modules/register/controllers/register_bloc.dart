@@ -2,9 +2,6 @@ import 'package:bloc/bloc.dart';
 
 import '../x_registers.dart';
 
-part 'register_event.dart';
-part 'register_state.dart';
-
 class SignupBloc extends Bloc<SignupEvent, SignupState> {
   SignupBloc() : super(SignupInitial()) {
     on<SignupEvent>((event, emit) {});

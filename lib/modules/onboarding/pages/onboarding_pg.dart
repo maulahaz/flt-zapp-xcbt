@@ -6,7 +6,7 @@ import '../../login/x_logins.dart';
 import '../x_onboardings.dart';
 
 class OnboardingPage extends StatefulWidget {
-  const OnboardingPage({super.key});
+  OnboardingPage({super.key});
 
   @override
   State<OnboardingPage> createState() => _OnboardingPageState();
@@ -23,16 +23,16 @@ class _OnboardingPageState extends State<OnboardingPage> {
     ),
     OnboardingModel(
       image: 'lib/assets/images/screen2.png',
-      text: 'Jelajahi Potensimu dengan Tes Online Akademik di CWB !',
+      text: 'Onboarding Screen-2 !',
     ),
     OnboardingModel(
       image: 'lib/assets/images/screen3.png',
-      text: 'Jelajahi Potensimu dengan Tes Online Akademik di CWB !',
+      text: 'Onboarding Screen-3 !',
     ),
   ];
 
   void navigate() {
-    context.pushReplacement(const LoginPage());
+    context.pushReplacement(LoginPage());
   }
 
   @override
@@ -70,13 +70,13 @@ class _OnboardingPageState extends State<OnboardingPage> {
                 length: onboardingData.length,
                 currentPage: currentPage,
               ),
-              const SizedBox(height: 40),
+              SizedBox(height: 40),
               Padding(
-                padding: const EdgeInsets.all(30.0),
+                padding: EdgeInsets.all(30.0),
                 child: MyButtons.primary(context, 'Continue', () {
                   if (currentPage < onboardingData.length - 1) {
                     pageController.nextPage(
-                      duration: const Duration(milliseconds: 500),
+                      duration: Duration(milliseconds: 500),
                       curve: Curves.ease,
                     );
                     currentPage++;
